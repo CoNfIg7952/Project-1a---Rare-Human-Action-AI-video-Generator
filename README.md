@@ -60,7 +60,4 @@ pip install diffusers gradio torch
 
 
 
-## Conclusion
-This project provides a simple and interactive way to generate images using Latte, a powerful latent diffusion model. The integration with Gradio makes it accessible for both developers and users to experiment with image generation from text prompts.
-
 
