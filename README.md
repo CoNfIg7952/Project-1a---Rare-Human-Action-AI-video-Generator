@@ -56,16 +56,9 @@ pip install diffusers gradio torch
 2. **Run the Script**: Execute the above script in Colab, or your local Python setup.
 3. **Interactive Use**:
    - A link will be provided to access the Gradio interface.
-   - Input a prompt like "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k" and click on "Generate Image" to get the result.
+   - Input a prompt like "Astronaut in a jungle, cold color palette, muted colors" and click on "Generate Image" to get the result.
 
-## Notes
 
-- **GPU Utilization**: Ensure your environment has enough GPU memory. Mixed precision (`torch_dtype=torch.float16`) is used to make computations more efficient.
-- **Mixed Precision**: The use of mixed precision (half precision) helps reduce memory load and increases the speed of generating images.
-- **Environment Considerations**: This project was tested using Google Colab with a GPU runtime. Depending on the hardware, the time for generating images may vary.
-
-## Example Output
-![Example Generated Image](example_image.png)
 
 ## Conclusion
 This project provides a simple and interactive way to generate images using Latte, a powerful latent diffusion model. The integration with Gradio makes it accessible for both developers and users to experiment with image generation from text prompts.
